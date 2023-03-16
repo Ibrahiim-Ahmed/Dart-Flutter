@@ -3,7 +3,7 @@
  For example, “racecar” is a palindrome.*/
 
 void main() {
-  if (isPalindrome("madam")) {
+  if (isPalindrome("mom")) {
     print("Palindrome");
   } else {
     print("Not Palindrome");
@@ -11,8 +11,8 @@ void main() {
 }
 
 bool isPalindrome(String input) {
-  for (int i = 0; i < input.length; i++) {
-    if (input[i] != input[input.length - 1 - i]) {
+  for (int a = 0; a < input.length; a++) {
+    if (input[a] != input[input.length - 1 - a]) {
       return false;
     }
   }
